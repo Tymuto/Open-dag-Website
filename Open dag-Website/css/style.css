@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #123378;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.Blokken{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+
+.Rooster{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
