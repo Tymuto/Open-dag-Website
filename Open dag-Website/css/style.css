@@ -23,3 +23,12 @@ header{
     justify-content: space-between;
     margin: 150px;
 }
+
+.Information h2{
+    color: #e54640;
+    background-color: #123378;
+}
+
+.Information{
+    background-color: #e54640;
+}
