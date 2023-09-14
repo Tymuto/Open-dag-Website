@@ -1,34 +1,58 @@
+@font-face {
+    font-family: "CurioBold";
+    src: url(Fellix-Bold.woff2);
+}
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "CurioBold";
 }
 
 header{
     display: flex;
     justify-content: space-between;
     background-color: #123378;
-    padding-left: 150px;
+    padding-left: 250px;
     padding-top: 10px;
     padding-bottom: 12px;
 }
 
+body{
+    background-color: #fc3232;
+}
+
+
+
+.coloroverflow{
+    background-image: linear-gradient(#123378, #fc3232);
+    padding: 10px;
+  }
+
 .Blokken{
     display: flex;
     justify-content: space-between;
-    margin: 150px;
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .Rooster{
     display: flex;
     justify-content: space-between;
-    margin: 150px;
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.img{
+    background-color: white;
 }
 
 .Information h2{
-    color: #e54640;
-    background-color: #123378;
+    color: #123378;
 }
 
 .Information{
-    background-color: #e54640;
+    width: 400px;
 }
