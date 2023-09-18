@@ -54,3 +54,28 @@ header{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.Versnellen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.Versnelleninfo{
+    background-color: #fc3232;
+    border: #123378 10px solid;
+    border-radius: 5%;
+}
+
+.Versnelleninfo h2{
+    color: #123378;
+    padding: 10px;
+}
+
+.Versnelleninfo p{
+    width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
