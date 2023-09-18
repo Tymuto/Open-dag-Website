@@ -18,17 +18,6 @@ header{
     padding-bottom: 12px;
 }
 
-body{
-    background-color: #fc3232;
-}
-
-
-
-.coloroverflow{
-    background-image: linear-gradient(#123378, #fc3232);
-    padding: 10px;
-  }
-
 .Blokken{
     display: flex;
     justify-content: space-between;
@@ -45,14 +34,23 @@ body{
     margin-right: 250px;
 }
 
-.img{
+.img, .Foto img {
     background-color: white;
 }
 
 .Information h2{
     color: #123378;
+    padding: 10px;
 }
 
 .Information{
     width: 400px;
+    background-color: #fc3232;
+    border: #123378 10px solid;
+    border-radius: 5%;
+}
+
+.Information p{
+    padding-left: 10px;
+    padding-right: 10px;
 }
