@@ -1,81 +1,83 @@
-@font-face {
-    font-family: "CurioBold";
-    src: url(Fellix-Bold.woff2);
-}
-
 *{
-    margin: 0;
     padding: 0;
-    font-family: "CurioBold";
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #123378;
-    padding-left: 250px;
-    padding-top: 10px;
-    padding-bottom: 12px;
+    background-color: #ffb703;
+    padding: 1.5vh;
 }
 
-.Blokken{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
-    margin-left: 250px;
-    margin-right: 250px;
+.Blokken, .Rooster{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5vw;
+    margin: 10vh 10vw;
 }
 
-.Rooster{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
-.img, .Foto img {
-    background-color: white;
-}
-
-.Information h2{
-    color: #123378;
-    padding: 10px;
+.Blokken img, .Rooster img{
+    width: 37vw;
 }
 
 .Information{
-    width: 400px;
-    background-color: #fc3232;
-    border: #123378 10px solid;
-    border-radius: 5%;
+    background-color: #ffb703;
+    padding: 2vh;
 }
 
-.Information p{
-    padding-left: 10px;
-    padding-right: 10px;
+.Information h2{
+    padding-bottom: 1vh;
 }
 
 .Versnellen{
+    background-color: #ffb703;
+    margin: 2vh 10vw;
+    padding: 2vh;
+}
+
+.Versnellen h2{
+    padding-bottom: 1vh;
+}
+
+.Docenten{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
+    margin: 11vh 10vw;
+    padding: 2vh;
+    background-color: #ffb703;
+    text-align: center;
 }
 
-.Versnelleninfo{
-    background-color: #fc3232;
-    border: #123378 10px solid;
-    border-radius: 5%;
+.Docenten img{
+    width: 10vw;
 }
 
-.Versnelleninfo h2{
-    color: #123378;
-    padding: 10px;
+.Docenten div{
+    margin: 0.5vw;
 }
 
-.Versnelleninfo p{
-    width: 800px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+@media screen and (max-aspect-ratio: 0.95/1){
+
+    header{
+        background-color: green;
+    }
+    .Blokken, .Rooster{
+        grid-template-columns: 1fr;
+    }
+    .Blokken img, .Rooster img{
+        width: 80vw;
+        padding-bottom: 2vh;
+    }
+    .Blokken{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Docenten{
+        display: flex;
+        flex-direction: column;
+    }
+    .Docenten img{
+        width: 30vw;
+    }
 }
