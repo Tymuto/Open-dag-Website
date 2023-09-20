@@ -1,14 +1,31 @@
+@font-face {
+    font-family: "Curio";
+    src: url(Fellix-Regular.woff2);
+}
+
+@font-face {
+    font-family: "CurioBold";
+    src: url(Fellix-Bold.woff2);
+}
+
 *{
     padding: 0;
     margin: 0;
     border: 0;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Curio;
 }
 
 header{
-    background-color: #ffb703;
+    background-color: darkgreen;
     padding: 1.5vh;
+}
+
+footer{
+    background-color: darkgreen;
+    padding: 3.5vh;
+    color: #ffb703;
+    text-align: center;
 }
 
 .Blokken, .Rooster{
@@ -16,6 +33,7 @@ header{
     grid-template-columns: 1fr 1fr;
     column-gap: 5vw;
     margin: 10vh 10vw;
+    margin-bottom: 30vh;
 }
 
 .Blokken img, .Rooster img{
@@ -23,17 +41,32 @@ header{
 }
 
 .Information{
+    
     background-color: #ffb703;
+    color: darkgreen;
     padding: 2vh;
+    border-radius: 20px;
 }
 
 .Information h2{
-    padding-bottom: 1vh;
+    padding-bottom: 2vh;
+}
+
+.Information p{
+    padding-bottom: 1vw;
+}
+
+.Information span{
+    font-family: CurioBold;
+    text-decoration: underline;
 }
 
 .Versnellen{
     background-color: #ffb703;
+    color: darkgreen;
+    border-radius: 20px;
     margin: 2vh 10vw;
+    margin-bottom: 30vh;
     padding: 2vh;
 }
 
@@ -46,6 +79,8 @@ header{
     margin: 11vh 10vw;
     padding: 2vh;
     background-color: #ffb703;
+    color: darkgreen;
+    border-radius: 20px;
     text-align: center;
 }
 
