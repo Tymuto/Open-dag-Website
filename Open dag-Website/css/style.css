@@ -16,9 +16,19 @@
     font-family: Curio;
 }
 
+a{
+    color: #ffb703;
+}
+
 header{
     background-color: darkgreen;
     padding: 1.5vh;
+    display: flex;
+    align-items: center; /* Verticaal centreren */
+}
+
+.Menu{
+    padding-left: 5vw;
 }
 
 footer{
